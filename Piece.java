@@ -6,8 +6,17 @@ public abstract class Piece {
     private int value;
     private char icon;
     private boolean isFirstMove;
+    private char[][] board;
 
     public abstract boolean validMoves();
+
+    public char[][] getBoard() {
+        return this.board;
+    }
+
+    public void setBoard(char[][] board) {
+        this.board = board;
+    }
 
     public char getIcon() {
         return this.icon;
