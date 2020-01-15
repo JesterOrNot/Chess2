@@ -10,7 +10,7 @@ public abstract class Piece {
     public abstract boolean validMoves();
 
     public char getIcon() {
-        return icon;
+        return this.icon;
     }
 
     public void setIcon(char icon) {
@@ -18,7 +18,7 @@ public abstract class Piece {
     }
 
     public boolean isFirstMove() {
-        return isFirstMove;
+        return this.isFirstMove;
     }
 
     public void setFirstMove(boolean isFirstMove) {
