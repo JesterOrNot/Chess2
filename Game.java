@@ -5,7 +5,16 @@ public class Game {
 
     private int whiteScore;
     private int blackScore;
+    private char[][] board;
     private boolean isWhiteTurn;
+
+    public char[][] getBoard() {
+        return this.board;
+    }
+
+    public void setBoard(char[][] board) {
+        this.board = board;
+    }
 
     public int getWhiteScore() {
         return this.whiteScore;
